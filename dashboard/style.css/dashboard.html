@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">HZ</div>
+        <ul class="menu">
+            <li>Dashboard</li>
+            <li>Activity Log</li>
+            <li>Catatan Pemeliharaan</li>
+            <li>Data transaksi model</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>DASHBOARD</h1>
+        <div class="info-boxes">
+            <div class="info-box">Total error Today<br>12 Error</div>
+            <div class="info-box">Avatage respons time<br>120 ms</div>
+            <div class="info-box">Bug to be fixed<br>5 bug pending</div>
+        </div>
+        <div class="error-rate">
+            <h2>Error Rate</h2>
+            <p>Response time across regions in the 24 hour</p>
+            <div class="time-filter">
+                <button>Week</button>
+                <button>Day</button>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>IssueTitle</th>
+                <th>Reported Date</th>
+                <th>Priority</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Google Login Failed</td>
+                <td>March 12, 2025</td>
+                <td><span class="high-priority">🔴 High</span></td>
+                <td><a href="#">🔍 View Details</a></td>
+            </tr>
+            <tr>
+                <td>UI Bug on Homepage</td>
+                <td>March 10, 2025</td>
+                <td><span class="low-priority">🟢 Low</span></td>
+                <td><a href="#">🔍 View Details</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
