@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #b3d1e6;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #f2e5e5;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #f8dfb0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+}
+
+.error-rate {
+    background-color: #f4b8b8;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.time-filter {
+    margin-top: 10px;
+}
+
+.time-filter button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #f07878;
+    color: white;
+}
+
+.high-priority {
+    color: red;
+    font-weight: bold;
+}
+
+.low-priority {
+    color: green;
+    font-weight: bold;
+}
